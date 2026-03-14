@@ -17,8 +17,15 @@ Motor virtual implementado apenas com os componentes disponíveis na BitDogLab V
 ![alt text](/docs/images/blockDiag_v2.png "Title")
 
 ---
+## ❗REQUISITOS
+1. BitDogLab V7: Já possui todos os periféricos necessários.
+2. Cabo micro USB
+3. Ambiente de desenvolvimento configurado para MicroPython.
+
+---
 ## 📚 REFERÊNCIAS
-a
+1. Repositório BitDogLab V7: [Repositório no GitHub](https://gitlab.unicamp.br/fabiano/bitdoglab-v7)
+2. Banco de Informação de Hardware: [BitDogLabV7_BIH](https://docs.google.com/document/d/13-68OqiU7ISE8U2KPRUXT2ISeBl3WPhXjGDFH52eWlU/edit?tab=t.0)
 
 ---
 ## 📄LICENÇA
@@ -28,12 +35,11 @@ a
 ## 📂 ESTRUTURA DO PROJETO
 ``` text
 ├── docs/                           → Documentação do projeto
-│   ├── i/ 
+│   ├── images/                     → Imagens para relatórios e referências
 │   ├── video/                      
 │   │   └── Vídeo(s) original(is)   → Vídeo original
 │   │   └── link.md                 → Link para o vídeo no YouTube
-│   ├── (...)                       → Relatórios, diagrama de bloco
-│   └── (...)                       → Folhas de dados, artigos, etc.
+│   └── (...)                       → Relatórios, diagrama de bloco
 ├── lib/                            → Bibliotecas externas e dependências
 │   └── lib.md                      → Listagem das bibliotecas necessárias
 ├── src/                            → Código-fonte
