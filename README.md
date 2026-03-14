@@ -11,12 +11,10 @@
 * **Demonstração do projeto no YouTube**: [Vídeo](link)
 
 ---
-## 💡 DESCRIÇÃO DO SISTEMA
-a
+## ⚙️ DESCRIÇÃO DO SISTEMA
+Motor virtual implementado apenas com os componentes disponíveis na BitDogLab V7. O motor é simulado com os 2 LEDs da extremidade da matriz 5x5, com controle de velocidade através do eixo Y do joystick, seleção de cor com os botões e feedback de velocidade através do display OLED.
 
----
-## ⚙️ DIAGRAMA DE BLOCOS
-a
+![alt text](/docs/images/blockDiag_v2.png "Title")
 
 ---
 ## 📚 REFERÊNCIAS
@@ -27,7 +25,7 @@ a
 * Ver o arquivo `LICENSE`.
 
 ---
-## 🌳 ESTRUTURA DO PROJETO
+## 📂 ESTRUTURA DO PROJETO
 ``` text
 ├── docs/                           → Documentação do projeto
 │   ├── i/ 
