@@ -43,6 +43,8 @@ Motor virtual implementado apenas com os componentes disponíveis na BitDogLab V
 │   │   └── Vídeo(s) original(is)   → Vídeo original
 │   │   └── link.md                 → Link para o vídeo no YouTube
 │   └── (...)                       → Relatórios, diagrama de bloco
+├── libs/                           → Bibliotecas
+│   └── (...)
 ├── src/                            → Código-fonte
 │   └── (...)
 ├── LICENSE                         → Licença de uso do código
