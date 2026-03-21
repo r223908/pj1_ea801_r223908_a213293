@@ -1,0 +1,26 @@
+flowchart LR
+    %% Bloco de Entradas
+    subgraph Entradas [Entradas do Sistema]
+        direction TB
+        J[Joystick <br> Eixo Y]
+        B[Botões <br> Físicos]
+    end
+
+    %% Bloco de Processamento
+    subgraph Processamento [Controle]
+        RPi[Raspberry Pi Pico <br> BitDogLab V7]
+    end
+
+    %% Bloco de Saídas
+    subgraph Saidas [Saídas do Sistema]
+        direction TB
+        M[Matriz de LEDs 5x5 <br> Motor Virtual]
+        D[Display OLED <br> SSD1306]
+    end
+
+    %% Conexões lógicas e de dados
+    J -- "Sinal Analógico <br> (Velocidade/Sentido)" --> RPi
+    B -- "Sinal Digital <br> (Troca de Cor)" --> RPi
+    
+    RPi -- "Controle NeoPixel <br> (Animação)" --> M
+    RPi -- "Comunicação I2C <br> (Telemetria)" --> D

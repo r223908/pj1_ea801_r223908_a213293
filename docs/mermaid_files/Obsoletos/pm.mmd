@@ -1,0 +1,23 @@
+gantt
+    title Planejamento - [Nome do Projeto]
+    dateFormat  DD-MM-YYYY
+    axisFormat  %d/%m
+    
+    section Definição
+    Definição do Escopo e Problema                      :a1, 18-03-2026, 2d
+    Diagrama de Blocos                       :a2, after a1, 5d
+    Levantamento de Requisitos                          :a3, after a1, 29-03-2026
+    Entrega da Proposta de Projeto                      :milestone, m1, after a3, 0d
+
+    section Desenvolvimento
+    Conceito Preliminar                                 :b1, after m1, 2d
+    Lista de Materiais e Dimensionamento                :b2, after m1, 2d
+    Setup BitDogLab                                     :b3, after b2, 1d
+    Lógica Periféricos                                  :b4, after b2, 4d
+    Montagem e Testes                                   :b5, after b3, 4d
+
+    section Finalização
+    Testes Finais                                       :c1, after b5, 3d
+    Validação                                           :c2, after c1, 12-04-2026
+    Relatório Final                                     :c3, after c1, 12-04-2026
+    Entrega do Projeto                                  :milestone, m2, after c2, 0d
